@@ -19,7 +19,7 @@ public class User {
 
    private String password;
 
-    private boolean isAdmin;
+    private String type;
     @OneToOne(fetch= FetchType.LAZY,cascade = CascadeType.ALL,mappedBy = "user")
     private Booking booking;
 
