@@ -7,8 +7,10 @@ import java.util.List;
 
 public class TrainServiceImp implements TrainService{
     TrainDoa trainDoa;
+
     @Override
     public String addTrain(List<Train> train) {
+
         trainDoa.saveAll(train);
         return null;
     }

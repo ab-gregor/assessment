@@ -1,7 +1,7 @@
 package com.springboot.assessment.Controllers;
 
 import com.springboot.assessment.Schema.AuthRequest;
-import com.nkdebug.jwt.util.JwtUtil;
+import com.springboot.assessment.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
